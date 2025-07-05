@@ -1,0 +1,39 @@
+# -----------------------------
+# Ignore raw and processed data
+# -----------------------------
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# -----------------------------
+# Ignore experiment results
+# -----------------------------
+results/*
+!results/.gitkeep
+
+# -----------------------------
+# Python cache and metadata
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Jupyter notebook checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Virtual environment
+# -----------------------------
+.venv/
+.env/
+
+# -----------------------------
+# OS-specific files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
